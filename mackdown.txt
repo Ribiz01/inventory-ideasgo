@@ -1,0 +1,62 @@
+# Inventory Management System
+
+A comprehensive inventory management system designed for small to medium businesses. Built with PHP, MySQL, Bootstrap 5, and modern web technologies.
+
+## Features
+
+### User Management
+- Role-based access control (Admin/Staff)
+- Secure authentication with password hashing
+- User activity logging
+- Session management with timeout
+- Profile management
+
+### Product Management
+- Add, edit, delete products
+- SKU and barcode support
+- Category organization
+- Supplier management
+- Product status tracking (active/discontinued/out_of_stock)
+
+### Inventory Management
+- Real-time stock tracking
+- Stock in/out operations
+- Multiple movement types (purchase, sale, return, adjustment)
+- Automatic stock level updates
+- Weighted average cost calculation
+
+### Stock Alerts
+- Low stock notifications
+- Critical stock alerts
+- Reorder level management
+- Email notifications (configurable)
+
+### Reporting & Analytics
+- Dashboard with key metrics
+- Sales reports
+- Stock valuation reports
+- Stock movement history
+- Export to CSV/PDF
+
+### Additional Features
+- Barcode generation and printing
+- Purchase order management
+- Sales order tracking
+- Backup and restore functionality
+- Responsive design for mobile devices
+- Multi-language support (ready for translation)
+
+## Installation
+
+### Requirements
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Web server (Apache/Nginx)
+- Composer (for optional dependencies)
+
+### Setup Instructions
+
+1. **Clone or download the project**
+   ```bash
+   git clone https://github.com/yourusername/inventory-system.git
+   cd inventory-system
